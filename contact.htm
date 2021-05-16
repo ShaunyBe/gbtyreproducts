@@ -4,18 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="CSS/gb.css"/>
-        <script src="js/gb.js"></script>
+        
         <title>GB Tyre Products</title>
     </head>
     <body>
         <div class="header">
-            <a href="home.htm" style="text-decoration: none;">
+            <a href="index.htm" style="text-decoration: none;">
                 <h1>GB Tyre Products</h1>
             </a>
             <p>Supplier of wheel services & tyre accessories</p>
         </div>
         <div class="navbar" id="myTopnav">
-            <a href="home.htm" class="active">Home</a>
+            <a href="index.htm" class="active">Home</a>
             <a href="about.htm">About</a>
             <div class="dropdown">
                 <button class="dropbtn">Products
@@ -103,10 +103,17 @@
                     </a>
                 </div>
             </div>
-            <p>&copy; Shaun Beukman</p>
+            <p>&copy; 2021 Shaun Beukman</p>
             <div class="scrolltotop">
                 <a id="topScroll" href="#top">&#8682;</a>
             </div>
         </div>
+        <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- if CDN fails to load serve up the local version-->
+    <script>window.jQuery || document.write('<script src="jQuery/jquery-3.6.0.js"><\/script>');</script>
+    <!-- jQuery -->
+    <script src="jQuery/jquery-3.6.0.js"></script>
+        <script src="js/gb.js"></script>
     </body>
 </html>
